@@ -1,0 +1,77 @@
+@import url(../style/fonts.css);
+
+/* **** Root start **** */
+
+
+:root {
+    --blue: rgb(45, 72, 114);
+    --color-three: rgb(45, 72, 114);
+    --grey: rgb(89, 89, 89);
+    --bg-header: rgb(229, 229, 229);
+    --white: rgb(255, 255, 255);
+    --color-logo: rgb(108, 172, 61);
+    --color-text: rgb(23, 22, 22);
+    --SairaStencilOne: 'SairaStencilOne';
+    --Roboto-Bold: 'Roboto-Bold';
+    --Roboto-Black: 'Roboto-Black';
+    --Montserrat-Bold: 'Montserrat-Bold';
+    --Roboto-Light: 'Roboto-Light';
+    --Roboto-Medium: 'Roboto-Medium';
+    --Roboto-Regular: 'Roboto-Regular';
+    --green: rgb(108, 172, 61)
+}
+
+
+.work-title {
+    color: var(--color-text);
+    font-family: var(--Roboto-Bold);
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.work-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.work-menu__text {
+    color: rgb(89, 89, 89);
+    font-family: var(--Roboto-Bold);
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 4px;
+    background: rgb(230, 230, 230);
+    padding: 14px 63px;
+}
+
+.work-menu__text:first-of-type {
+    color: var(--white);
+    font-family: var(--Roboto-Bold);
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 4px;
+    background: var(--blue);
+
+}
+
+.work-kv {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+}
+
+.work-kv__box {
+    display: flex;
+    gap: 13px;
+    margin-bottom: 32px;
+}
+
+.work-box__text {
+    color: var(--grey);
+    font-family: var(--Roboto-Regular);
+    font-size: 14px;
+    line-height: 16px;
+}

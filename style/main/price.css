@@ -1,0 +1,199 @@
+@import url(../style/fonts.css);
+
+/* **** Root start **** */
+
+
+:root {
+
+    --color-three: rgb(45, 72, 114);
+    --color2: rgb(89, 89, 89);
+    --bg-header: rgb(229, 229, 229);
+    --white: rgb(255, 255, 255);
+    --color-logo: rgb(108, 172, 61);
+    --color-text: rgb(23, 22, 22);
+    --SairaStencilOne: 'SairaStencilOne';
+    --Roboto-Bold: 'Roboto-Bold';
+    --Roboto-Black: 'Roboto-Black';
+    --Montserrat-Bold: 'Montserrat-Bold';
+    --Roboto-Light: 'Roboto-Light';
+    --Roboto-Medium: 'Roboto-Medium';
+    --Roboto-Regular: 'Roboto-Regular';
+    --green: rgb(108, 172, 61)
+}
+
+.price-boot {
+    max-width: 284px;
+    width: 100%;
+    padding-bottom: 31px;
+    margin-bottom: 98px;
+}
+
+.price-title {
+    color: var(--color-text);
+    font-family: var(--Roboto-Bold);
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.price-box{
+    display: flex;
+    justify-content: space-between;
+}
+.price-boot__info {
+    max-width: 284px;
+    width: 100%;
+}
+
+.price-boot__cosmetic {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 16px 16px 0px 0px;
+    background: rgb(227, 234, 239);
+    padding: 14px 39px 14px 27px;
+    margin-bottom: 24px;
+}
+
+.price-cosmetic__srok {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price-srok__title {
+    color: var(--color-logo);
+    font-family: var(--Roboto-Bold);
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.price-srok__text {
+    color: var(--color-text);
+    font-family: var(--Roboto-Bold);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.prise-text {
+    color: var(--color-text);
+    font-family: var(--Roboto-Light);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    max-width: 239px;
+    width: 100%;
+    height: 108px;
+    margin: 0 18px 11px 27px;
+}
+
+.price-line {
+    max-width: 284px;
+    width: 100%;
+    height: 2px;
+    background: rgb(45, 72, 114);
+    margin-bottom: 15px;
+}
+
+.price-remove__title {
+    color: var(--color-text);
+    font-family: var(--Roboto-Bold);
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 9px 27px;
+}
+
+.price-boot__box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 29px;
+    margin-bottom: 18px;
+}
+
+.price-boot__remove {
+    display: flex;
+    gap: 4px;
+}
+
+.price-remove__text {
+    color: var(--color-text);
+    font-family: var(--Roboto-Regular);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.price-remove__icon {
+    color: rgb(45, 72, 114);
+    color: 2px solid rgb(45, 72, 114);
+}
+
+.price-boot__remove-second {
+    display: flex;
+    gap: 4px;
+    margin-left: 29px;
+    margin-bottom: 18px;
+}
+
+.price-remove__title-second {
+    color: rgb(196, 196, 196);
+    font-family: var(--Roboto-Bold);
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 29px;
+    margin-bottom: 30px;
+}
+
+.price-boot__desk {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price-desk__title {
+    color: rgb(45, 72, 114);
+    font-family: var(--Roboto-Bold);
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.price-desk__icon {
+    color: rgb(45, 72, 114);
+}
+
+.price-boot__menu {
+    display: flex;
+    gap: 6px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+}
+
+.price-menu__first {
+    color: var(--color-text);
+    font-family: var(--Roboto-Regular);
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+}
+
+.price-menu__second {
+    color: var(--green);
+    font-family: var(--Roboto-Bold);
+    font-size: 16px;
+}
+
+.price-boot__btn {
+    color: var(--white);
+    font-family: var(--Roboto-Bold);
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 4px;
+    background: var(--green);
+    padding: 13px 26px;
+    margin-left: 48px;
+    margin-bottom: 31px;
+}
